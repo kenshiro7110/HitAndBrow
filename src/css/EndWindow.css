@@ -1,0 +1,26 @@
+.end {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.end.active {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.end.active p {
+  font-size: 40px;
+  color: red;
+}
+.end.active button {
+  width: 200px;
+  height: 100px;
+  border-radius: 999px;
+  font-size: 20px;
+  cursor: pointer;
+}

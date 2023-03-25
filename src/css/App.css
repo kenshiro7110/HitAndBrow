@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 30%;
+}
+.right .logs-title {
+  font-size: 24px;
+}
+.right .loglists {
+  margin: 0;
+  padding: 0;
+}
+.right .loglists li {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.rule {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: solid 1px #0f0f0f;
+}
+.rule h2 {
+  margin: 5px 0;
+}
+.rule p {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  .main .left {
+    width: 100%;
+  }
+  .main .right {
+    width: 100%;
+  }
+}
